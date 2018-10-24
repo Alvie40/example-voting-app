@@ -1,4 +1,4 @@
-- type: parallel
+- type: manual
   name: unit_tests
   steps:
   - service: vote
