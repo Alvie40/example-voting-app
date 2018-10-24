@@ -12,3 +12,4 @@ obj/
 db-data/
 aws-auth-cm.yaml
 devops-world-demos-a680bb691025.json
+.vscode/
