@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$1" == "devops-world" ]; then
+if [ "$1" == "purple" ]; then
     # main cat color
     sed -i '' 's/2196f3/bb1259/g' result/views/stylesheets/style.css 
     sed -i '' 's/1aaaf8/bb1259/g' vote/static/stylesheets/style.css
@@ -15,7 +15,7 @@ if [ "$1" == "devops-world" ]; then
     # dog button hover color
     sed -i '' 's/00a2a1/8f1259/g' vote/static/stylesheets/style.css
 
-elif [ "$1" == "normal" ]; then
+elif [ "$1" == "default" ]; then
     # main cat color
     sed -i '' 's/bb1259/2196f3/g' result/views/stylesheets/style.css 
     sed -i '' 's/bb1259/1aaaf8/g' vote/static/stylesheets/style.css
@@ -30,5 +30,5 @@ elif [ "$1" == "normal" ]; then
     # dog button hover color
     sed -i '' 's/8f1259/00a2a1/g' vote/static/stylesheets/style.css
 else
-    echo "Specify either normal or devops-world"
+    echo "Specify either default or purple"
 fi

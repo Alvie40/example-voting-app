@@ -61,7 +61,6 @@ function collectVotesFromResult(result) {
     votes[row.vote] = parseInt(row.count);
   });
 
-  // return votes;
   // doggos!
   // votes = {a: 0, b: 100};
 
